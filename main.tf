@@ -5,8 +5,8 @@ provider "aws" {
 resource "aws_instance" "example" {
   ami                    = "ami-0c55b159cbfafe1f0"  # Replace with your desired AMI ID
   instance_type          = "t2.micro"
-  key_name               = "your-key-pair-name"  # Replace with your key pair name
-  subnet_id              = "your-subnet-id"  # Replace with your subnet ID
+  key_name               = "Test"  # Replace with your key pair name
+  subnet_id              = "subnet-01d359e9c89c6e47d"  # Replace with your subnet ID
   associate_public_ip_address = true
 
   tags = {
