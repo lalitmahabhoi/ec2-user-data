@@ -1,4 +1,4 @@
 variable "AWS_REGION" {
   type    = string
-  default = "ap-south-1"
+  default = "us-east-1"
 }
